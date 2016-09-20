@@ -23,7 +23,7 @@ Thats a very tough sell but you can boil it down to speed, efficiency and power.
 Lying underneath the OSX interfaces is powerful Unix system, ready to leap into action at a moment's notices all you have to do is ask, and one one the best way to ask is with simple command line instruction.
 
 
-### Some of most common commands you will use
+### Some of the most common commands you will use
 
 ##### File system navigation
 
@@ -66,28 +66,32 @@ In computing, a shell is a user interface for access to an operating system's se
 ### Shell script
 
 ```
-   #!/bin/bash
-        for i in `seq 1 10`;
-        do
-                echo $i
-        done
+	#!/bin/bash
+	
+	for i in `seq 1 10`;
+	do
+		echo $i
+	done
 ```
 ### Fun in the terminal
 
 * `say`
 * `date`
 * `cal`
-* `emacs`
+* `emacs -nw --eval="(tetris)"`
+* `telnet towel.blinkenlights.nl`
+
 
 ### Where to get help
 
-* `man`		-- manual page for most standard commandline tools
+* `man`	-- manual page for most standard commandline tools
 * `help`	-- help for native shell commands
 * `info`	-- information for a some commanline tools
 
 ### Futures
 
-* `grep`
+* `git` --  A distributed version control system
+* `grep, egrep, fgrep, zgrep, zegrep, zfgrep` -- file pattern searcher
 * `history`
 * `pipe`
 * `ps`
@@ -98,7 +102,6 @@ In computing, a shell is a user interface for access to an operating system's se
 * `sed`
 * `ed`
 * `mc`
-* `git`
 * `python`
 * `php`
 * `node`
