@@ -20,7 +20,7 @@ Unix is pretty much the same, regardless of whether you're using it on OSX, Free
 Why would a person want to type in a bunch of unix commands when you can just use the mouse? After all, OSX has one of the best user interfaces out there, so what what would compel you as a Mac user to use the unix command line.
 Thats a very tough sell but you can boil it down to speed, efficiency and power.
 
-Lying underneath the OSX interfaces is powerful Unix system, ready to leap into action at a moment's notices all you have to do is ask, and one one the best way to ask is with simple command line instruction.	 
+Lying underneath the OSX interfaces is powerful Unix system, ready to leap into action at a moment's notices all you have to do is ask, and one one the best way to ask is with simple command line instruction.
 
 
 ### Some of most common commands you will use
@@ -46,6 +46,8 @@ Lying underneath the OSX interfaces is powerful Unix system, ready to leap into 
 `rm`	-- remove files or directories
 
 ##### View and edit files
+`more`	-- reads and print files
+
 `less`	-- reads and print files
 
 `cat`	-- concatenate and print file
@@ -68,7 +70,7 @@ In computing, a shell is a user interface for access to an operating system's se
         for i in `seq 1 10`;
         do
                 echo $i
-        done 
+        done
 ```
 ### Fun in the terminal
 
@@ -78,12 +80,12 @@ In computing, a shell is a user interface for access to an operating system's se
 * `emacs`
 
 ### Where to get help
-	
+
 * `man`		-- manual page for most standard commandline tools
 * `help`	-- help for native shell commands
 * `info`	-- information for a some commanline tools
 
-### Futures 
+### Futures
 
 * `grep`
 * `history`
@@ -102,4 +104,4 @@ In computing, a shell is a user interface for access to an operating system's se
 * `node`
 
 
- 
+
