@@ -9,21 +9,19 @@ The unix operating system was invented over 40 years ago for scientific and prof
 
 It has evolved since then through a remarkably circuitous path through many major software companies and universities.
 
-Because unix was design for experts by experts it comes with a wide range of built in tools and commands, It's one of the preferred OS among developer.
+Because unix was design for experts by experts it comes with a wide range of built in tools and commands, and today it still remains one of the preferred Operating system among developer.
 
-Unix is pretty much the same, regardless of whether you're using it on OSX, FreeBSD, or Linux, or even on tiny embedded system or on a giant super computer.
+Unix is pretty much the same, regardless of whether you're using it on Mac OSX, FreeBSD, or Linux, or even on tiny embedded system or on a giant super computer.
 
 
 
 ### Why use the command line
 
-Why would a person want to type in a bunch of unix commands when you can just use the mouse? After all, OSX has one of the best user interfaces out there, so what what would compel you as a Mac user to use the unix command line.
-Thats a very tough sell but you can boil it down to speed, efficiency and power.
+Why would a person want to type in a bunch of unix commands when you can just use the mouse? After all, OSX has one of the best user interfaces out there, so what would compel you as a Mac user to use the unix command line for your development work.
+That my friends, is a very hard sell but you can boil it down to speed, efficiency and power.
 
-Lying underneath the OSX interfaces is powerful Unix system, ready to leap into action at a moment's notices all you have to do is ask, and one one the best way to ask is with simple command line instruction.
-
-
-### Some of the most common commands you will use
+Lying underneath the mac OSX interfaces is a powerful Unix system, ready to leap into action at a moment's notices all you have to do is ask, and one of the best ways to ask is via command line instructions.
+### Some of the most common commands you will use are list bellow
 
 ##### File system navigation
 
@@ -52,7 +50,7 @@ Lying underneath the OSX interfaces is powerful Unix system, ready to leap into 
 
 `cat`	-- concatenate and print file
 
-`vim`	-- Vi IMproved, a programmers text editor
+`vim`	-- Vi Improved, a programmers text editor
 
 `emacs` -- Emacs is the extensible, customizable, editor
 
@@ -60,18 +58,20 @@ Lying underneath the OSX interfaces is powerful Unix system, ready to leap into 
 
 ### What is a shell
 
-In computing, a shell is a user interface for access to an operating system's services. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. It is named a shell because it is a layer around the operating system kernel.
+In computing, a shell is a user interface the provides access to an operating system's services.
+In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation.
+It is named a shell because it is a layer around the operating system kernel.
 
 
 ### Shell script
 
 ```
-	#!/bin/bash
-	
-	for i in `seq 1 10`;
-	do
-		echo $i
-	done
+ #!/bin/bash
+
+ for i in `seq 1 10`;
+ do
+  echo $i
+ done
 ```
 ### Fun in the terminal
 
@@ -84,16 +84,16 @@ In computing, a shell is a user interface for access to an operating system's se
 
 ### Where to get help
 
-* `man`	-- manual page for most standard commandline tools
+* `man`	-- manual page for most standard command line tools
 * `help`	-- help for native shell commands
-* `info`	-- information for a some commanline tools
+* `info`	-- information for a some command line tools
 
 ### Futures
 
 * `git` --  A distributed version control system
 * `grep, egrep, fgrep, zgrep, zegrep, zfgrep` -- file pattern searcher
+* `pipe ( |, >, <)` -- pipe is not a stand alone command it more of an operator
 * `history`
-* `pipe`
 * `ps`
 * `top`
 * `chown`
