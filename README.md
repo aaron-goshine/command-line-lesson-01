@@ -107,5 +107,12 @@ It is named a shell because it is a layer around the operating system kernel.
 * `php`
 * `node`
 
-
+#### install dot-files
+```
+git clone git@github.com:aaron-goshine/commandline-lesson-01.git &&
+cd commandline-lesson-01/package-dofiles/ &&
+cp -rf ./ ~/ &&
+cd ../../ &&
+rm -rf commandline-lesson-01
+```
 

@@ -208,17 +208,6 @@ vnoremap <silent> < <gv
 vnoremap <silent> > >gv
 nnoremap <silent> n nzzzv
 nnoremap <silent> N Nzzzv
-
-let g:neocomplcache_enable_at_startup = 1
-let g:neocomplcache_min_syntax_length = 3
-let g:neocomplcache_enable_underbar_completion = 0
-let g:neocomplcache_dictionary_filetype_lists = {
-			\ 'default' : '/usr/share/dict/words',
-			\ 'vimshell' : $HOME.'/.vimshell_hist',
-			\ 'scheme' : $HOME.'/.gosh_completions'
-			\ }
-
-
 inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 
 "---------------------------
