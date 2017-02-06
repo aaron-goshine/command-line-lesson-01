@@ -101,7 +101,6 @@ It is named a shell because it is a layer around the operating system kernel.
 * `chmod`
 * `awk`
 * `sed`
-* `ed`
 * `mc`
 * `python`
 * `php`
