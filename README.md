@@ -103,7 +103,6 @@ It is named a shell because it is a layer around the operating system kernel.
 * `sed`
 * `mc`
 * `python`
-* `php`
 * `node`
 
 #### install dot-files
