@@ -2,8 +2,10 @@
 ---------------------------
 Source files in order to conduct an introduction to the command line workshop
 
+Source Material for Mentorship Programme. 
 
-### A Brief History of the Unix Command line
+
+### A Brief History of the Unix Command line 
 
 The unix operating system was invented over 40 years ago for scientific and professional users who wanted a very powerful and flexible Operating system.
 
