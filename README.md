@@ -2,7 +2,7 @@
 ---------------------------
 Source files in order to conduct an introduction to the command line workshop
 
-Source Material for Mentorship Programme.  (Student : Daniel M)
+Source Material for Mentorship Programme. 
 
 
 ### A Brief History of the Unix Command line 
